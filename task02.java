@@ -1,14 +1,14 @@
 public class Main {
 	public static void main(String[] args) {
-		double x = 1 + 1 * 2;
-		double y = (1 + 1) * 2;
-		double z = 1 + ( 1 * 2 );
-		double a = 1 + 1 * 2 /2;
+		int x = 1 + 1 * 2;
+		int y = (1 + 1) * 2;
+		int z = 1 + ( 1 * 2 );
+		int a = 1 + 1 * 2 /2;
 		double b = (1 + 1 * 2 ) /2.0;
-		System.out.println((int)x);
-		System.out.println((int)y);
-		System.out.println((int)z);
-		System.out.println((int)a);
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		System.out.println(a);
 		System.out.println(b);
 	}
 }
