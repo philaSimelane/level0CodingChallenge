@@ -28,16 +28,18 @@ public class Main {
 		for (int j = 0; j< letterArray.size(); j++){
     		builder.append(letterArray.get(j));
     	if ( j< letterArray.size()- 1){
-        	builder.append(", ");
+    	   builder.append(", ");
         }
 		}
-      System.out.println(builder.toString());
+		System.out.println(builder.toString());
 	}
 
 }
 	
 		
 
+	
+		
 		
 etterArray.get(j));
     	if ( j< letterArray.size()- 1){
