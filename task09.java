@@ -26,10 +26,10 @@ public class Main {
 		System.out.print("Vowels: ");
 		StringBuilder builder = new StringBuilder();
 		for (int j = 0; j< letterArray.size(); j++){
-    		builder.append(letterArray.get(j));
-    	if ( j< letterArray.size()- 1){
-    	   builder.append(", ");
-        }
+    		     builder.append(letterArray.get(j));
+    	        if ( j< letterArray.size()- 1){
+                     builder.append(", ");
+                }
 		}
 		System.out.println(builder.toString());
 	}
@@ -41,15 +41,5 @@ public class Main {
 	
 		
 		
-etterArray.get(j));
-    	if ( j< letterArray.size()- 1){
-        	builder.append(", ");
-        }
-      }
-      System.out.println(builder.toString());
-					
-}
 
-	}
-	
 		
