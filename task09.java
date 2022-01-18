@@ -14,28 +14,32 @@ public class Main {
 							continue;
 						else if (word.charAt(i) == 'a')
 							letterArray.add(word.charAt(i));
-						if (itemInArray)
-							continue;
 						else if (word.charAt(i) == 'e')
 							letterArray.add(word.charAt(i));
-						if (itemInArray)
-							continue;
 						else if (word.charAt(i) == 'i')
 							letterArray.add(word.charAt(i));
-						if (itemInArray)
-							continue;
 						else if (word.charAt(i) == 'o')
 							letterArray.add(word.charAt(i));
-						if (itemInArray)
-							continue;
 						else if (word.charAt(i) == 'u')
 							letterArray.add(word.charAt(i));
 		}
-		
 		System.out.print("Vowels: ");
 		StringBuilder builder = new StringBuilder();
 		for (int j = 0; j< letterArray.size(); j++){
     		builder.append(letterArray.get(j));
+    	if ( j< letterArray.size()- 1){
+        	builder.append(", ");
+        }
+		}
+      System.out.println(builder.toString());
+	}
+
+}
+	
+		
+
+		
+etterArray.get(j));
     	if ( j< letterArray.size()- 1){
         	builder.append(", ");
         }
